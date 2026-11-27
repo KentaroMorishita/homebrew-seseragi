@@ -3,24 +3,24 @@
 class Seseragi < Formula
   desc "CLI and language server for the Seseragi programming language"
   homepage "https://github.com/KentaroMorishita/seseragi"
-  version "0.62.5"
+  version "0.62.6"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/KentaroMorishita/seseragi/releases/download/v0.62.5/seseragi-v0.62.5-darwin-arm64.tar.gz"
-      sha256 "0cf584377725b1f71f4bf2079e425713367a1018afc906899816e119367825b9"
+      url "https://github.com/KentaroMorishita/seseragi/releases/download/v0.62.6/seseragi-v0.62.6-darwin-arm64.tar.gz"
+      sha256 "846b08555b7f1fb5ee651c1381e0b5946d823916f75bfa90465572669f23c669"
     end
     on_intel do
-      url "https://github.com/KentaroMorishita/seseragi/releases/download/v0.62.5/seseragi-v0.62.5-darwin-x64.tar.gz"
-      sha256 "50081d3f47af60ff611173cbed3b7703834ebaa5886e2fea6bf73e214889dcb9"
+      url "https://github.com/KentaroMorishita/seseragi/releases/download/v0.62.6/seseragi-v0.62.6-darwin-x64.tar.gz"
+      sha256 "40e4d4c25e8816dc0f0f7c609e2e9589c526dfec174675614ee22963db37662b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/KentaroMorishita/seseragi/releases/download/v0.62.5/seseragi-v0.62.5-linux-x64.tar.gz"
-      sha256 "8dacf986412c6278797e2744d22d283446e85f148fb737c3e4993ca361382a45"
+      url "https://github.com/KentaroMorishita/seseragi/releases/download/v0.62.6/seseragi-v0.62.6-linux-x64.tar.gz"
+      sha256 "79b1316e314db2bd90fc3d8353d56b25f128035f282d0828cee11199e97d52ce"
     end
   end
 
